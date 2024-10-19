@@ -89,16 +89,16 @@ const SignUp = () => {
                             />
                         </div>
                         <div className='text-left'>
-                        <h1 className="text-gray-500 font-thin -mt-3  mb-5">Must be least 8 characters.</h1>
+                        <h1 className="text-gray-500  -mt-3  mb-5">Must be least 8 characters.</h1>
                         </div>
-                        <button className="btn bg-[#F88D58] hover:bg-black text-white w-full text-xl font-thin">Sign in</button>
+                        <button className="btn bg-[#F88D58] hover:bg-black text-white w-full text-xl">Sign in</button>
                     </form>
                         <button className="btn bg-white text-gray-600 w-full text-xl max-w-sm mt-8 border-gray-300"><FcGoogle className='text-4xl' /> Sign in With Google</button>
                         <h1 className='text-gray-500'>
                             Already have an account?
                             <Link href={'/login'}>
                             <button className="btn btn-link no-underline 
-                            text-[#F88D58] font-thin  my-2">
+                            text-[#F88D58]  my-2">
                                 Log in
                             </button>
                             </Link>

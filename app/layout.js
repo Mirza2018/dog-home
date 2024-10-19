@@ -1,6 +1,12 @@
 import localFont from "next/font/local";
 import "./globals.css";
-
+import { Inter,Roboto } from 'next/font/google'
+const roboto_init=Roboto({
+  subsets:['latin'],
+  weight:['100','300','700'],
+  variable:'--font-roboto'
+})
+const inter = Inter({  weight: ["100","200","300","400","500","600","700","800","900"], subsets: ['latin'] })
 
 const geistSans = localFont({
   src: "./fonts/GeistVF.woff",
@@ -22,7 +28,7 @@ export default function RootLayout({ children }) {
   return (
     <html lang="en">
       <body
-        className={`${geistSans.variable} ${geistMono.variable} antialiased`}
+        className={inter.className}
       >
       
         {children}

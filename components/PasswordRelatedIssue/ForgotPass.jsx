@@ -23,11 +23,11 @@ const ForgotPass = () => {
                                 required
                             />
                         </div>
-                        <button className="btn bg-[#F88D58] hover:bg-black text-white w-full text-xl font-thin">Submit</button>
+                        <button className="btn bg-[#F88D58] hover:bg-black text-white w-full text-xl  ">Submit</button>
 
               </form>          
               <Link href={'/login'}>
-              <button className="flex flex-shrink-0  no-underline text-gray-500 font-thin my-2 gap-2"><IoMdArrowBack className='text-2xl' />
+              <button className="flex flex-shrink-0  no-underline text-gray-500   my-2 gap-2"><IoMdArrowBack className='text-2xl' />
               <h1 className=''>Back to log in</h1></button>
               </Link>
 

@@ -62,17 +62,17 @@ const Login = () => {
                         </div>
                         <div className='text-right'>
                         <Link href={'/login/forgot-password'}>
-                        <button className="btn btn-link no-underline text-[#F88D58] font-thin md:text-xl md:my-2">Forgot password</button>
+                        <button className="btn btn-link no-underline text-[#F88D58]  md:text-xl md:my-2">Forgot password</button>
                         </Link>
                         </div>
-                        <button className="btn bg-[#F88D58] hover:bg-black text-white w-full text-xl font-thin">Sign in</button>
+                        <button className="btn bg-[#F88D58] hover:bg-black text-white w-full text-xl  ">Sign in</button>
                     </form>
                         <button className="btn bg-white text-gray-600 w-full text-xl max-w-sm mt-8 border-gray-300"><FcGoogle className='text-4xl' /> Sign in With Google</button>
                         <Link href={'/sign-up'}>
                         <h1 className='text-gray-500'>
                             Don’t have an account?
                             <button className="btn btn-link no-underline
-                             text-[#F88D58] font-thin md:text-xl my-2">
+                             text-[#F88D58]  md:text-xl my-2">
                                 sign up</button>
                         </h1>
                        </Link>

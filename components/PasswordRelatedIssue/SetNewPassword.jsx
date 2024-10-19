@@ -24,7 +24,7 @@ const SetNewPassword = () => {
                             />
                         </div>
                         <div className='text-left'>
-                        <h1 className="text-gray-500 font-thin -mt-3 mb-5">Must be at least 8 characters.</h1>
+                        <h1 className="text-gray-500   -mt-3 mb-5">Must be at least 8 characters.</h1>
                         </div>
                         {/* Confirm Password */}
                         <div className="form-control mb-4">
@@ -39,11 +39,11 @@ const SetNewPassword = () => {
                                 required
                             />
                         </div>
-                        <button className="btn bg-[#F88D58] hover:bg-black text-white w-full text-xl font-thin">Reset password</button>
+                        <button className="btn bg-[#F88D58] hover:bg-black text-white w-full text-xl  ">Reset password</button>
 
               </form>        
               <Link href={'/login'}>
-              <button className="flex flex-shrink-0  no-underline text-gray-500 font-thin my-2 gap-2 mt-5"><IoMdArrowBack className='text-2xl' />
+              <button className="flex flex-shrink-0  no-underline text-gray-500   my-2 gap-2 mt-5"><IoMdArrowBack className='text-2xl' />
               <h1 className=''>Back to log in</h1></button>
               </Link>
 
