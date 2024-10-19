@@ -5,7 +5,8 @@ import loginImg from "../../asserts/login-img.png";
 import logo from "../../asserts/logo.png";
 import { FcGoogle } from "react-icons/fc";
 
-const Login = () => {
+
+const SignUp = () => {
     return (
         <div className='container mx-auto pt-5'>
             {/* Login Back button */}
@@ -68,4 +69,4 @@ const Login = () => {
     );
 };
 
-export default Login;
+export default SignUp;
