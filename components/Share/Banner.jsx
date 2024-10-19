@@ -1,5 +1,5 @@
 import Image from "next/image";
-import logo from "../asserts/dog.png"
+import logo from "../../asserts/dog.png"
 const Banner = () => {
     return(
         <div className="mt-4 relative" >
