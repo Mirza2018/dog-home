@@ -14,14 +14,14 @@ const Navbar = () => {
 
 
   const menuItems = [
-    { name: 'Home' },
-    { name: 'Friends'},
-    { name: 'Woof Mail' },
-    { name: 'Fetch-Worthy Finds'},
-    { name: 'Featured Pups'},
-    { name: 'Our Pack'},
-    { name: 'Contact us'},
-    { name: 'Dashboard'},
+    { name: 'Home',path:'/' },
+    { name: 'Friends', path:'friends'},
+    { name: 'Woof Mail',path:'/'  },
+    { name: 'Fetch-Worthy Finds',path:'/' },
+    { name: 'Featured Pups',path:'/' },
+    { name: 'Our Pack',path:'/' },
+    { name: 'Contact us',path:'/' },
+    { name: 'Dashboard',path:'/' },
   ];
   console.log(isOpen);
   
@@ -55,17 +55,17 @@ const Navbar = () => {
                       </div>
                      
                       {menuItems.map((item) => (
-                        <a
+                        <Link
                           key={item.name}
-                          href={`${item.name}`}
+                          href={`${item?.path}`}
                           className="block px-3 py-2 rounded-md text-base font-medium text-white hover:bg-gray-700 focus:outline-none focus:bg-gray-700 transition duration-150 ease-in-out"
                           aria-label={item.name}
                         >
                           <span className="  text-black text-right">
-                            {item.icon}
+                            {/* {item.icon} */}
                             <span className="">{item.name}</span>
                           </span>
-                        </a>
+                        </Link>
                       ))}
                     </div>
                     }
@@ -86,7 +86,7 @@ const Navbar = () => {
               <ul className="flex space-x-6 text-black lg:text-sm  font-bold uppercase ">
                     {
                         menuItems.map(item=>(
-                            <Link href='/' key={item.name} className="">
+                            <Link href={item?.path} key={item.name} className="">
                               <li className="flex ">{item.name} 
                               </li>
                             </Link>
