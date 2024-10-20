@@ -3,6 +3,7 @@ import React from 'react';
 import dog1 from "../../asserts/b2.png"
 import dog2 from "../../asserts/b3.png"
 import { MdOutlineArrowOutward } from "react-icons/md";
+import HowDoYouPlay from './HowDoYouPlay';
 
 
 const Containt = () => {
@@ -76,6 +77,10 @@ const Containt = () => {
   
         </div>
 
+    </div>
+    <div>
+        <title>How Do You Play?</title>
+      <HowDoYouPlay />
     </div>
 </section>
 

@@ -2,6 +2,7 @@ import localFont from "next/font/local";
 import "./globals.css";
 import { Inter,Roboto } from 'next/font/google'
 import Navbar from "@/components/Share/Navbar";
+import Footer from "@/components/Share/Footer";
 const roboto_init=Roboto({
   subsets:['latin'],
   weight:['100','300','700'],
@@ -33,6 +34,7 @@ export default function RootLayout({ children }) {
       >
       <Navbar/>
         {children}
+        <Footer/>
       </body>
     </html>
   );
