@@ -5,7 +5,7 @@ import Containt from './Containt';
 const HomePage = () => {
     return (
         <div>
-            <Banner/>
+            {/* <Banner/> */}
             <Containt/>
         </div>
     );
